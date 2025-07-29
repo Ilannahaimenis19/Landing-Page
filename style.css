@@ -1,3 +1,151 @@
 body {
-    font-family:Arial, Helvetica, sans-serif
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 16vw;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #c0c0c2;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #c0c0c2;
+}
+
+.section {
+    padding: 100px 16vw;
+    text-align: center;
+}
+
+.section.hero {
+    background-color: #1f2937; 
+    display: flex;
+    gap: 32px;
+    color: white;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero img {
+    width: 300px;
+    flex: 1 1 auto;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    flex: 1 1 50%;
+}
+
+h1 {
+ margin: 0 0 16px 0;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 16px;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 0 0 32px 0;
+}
+
+.cards-wrapper {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.card img {
+    width: 200px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 200px
+}
+
+.section.gray {
+    background-color: #e5e7eb;
+    padding: 100px 16vw;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+    text-align: start;
+    margin-bottom: 16px;
+}
+
+.author {
+    color: #1f2937;
+    text-align: end;
+}
+
+.blue-container {
+    background-color: #3882f6;
+    padding: 24px 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-radius: 8px;
+}
+
+.blue-container button {
+    border: 1px solid white;;
+    flex-shrink: 0;
+    margin: 0;
+}
+
+h3 {
+    margin: 0 0 8px 0;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 36px 16vw;
+    text-align: center;
+}
+
+.white {
+    color: white;
 }
